@@ -1,0 +1,553 @@
+{
+  "@@locale": "en",
+  "appName": "MediScan Helper",
+  "appDescription": "Smart Personal Health Assistant",
+
+  "splashWelcome": "Welcome",
+  "splashLoading": "Loading...",
+
+  "homeTitle": "Home",
+  "homeWelcome": "Hello",
+  "homeStats": "Statistics",
+  "homeTotalMeds": "Medications",
+  "homeActiveReminders": "Active Reminders",
+  "homeTodayMeds": "To take today",
+
+  "menuScanPrescription": "Scan Prescription",
+  "menuMyMedications": "My Medications",
+  "menuReminders": "Reminders",
+  "remindersTitle": "Reminders",
+  "menuHistory": "History",
+  "menuSettings": "Settings",
+
+  "scanTitle": "Scan Prescription",
+  "scanButton": "Start Scan",
+  "scanProcessing": "Processing...",
+  "scanSuccess": "Scan successful!",
+  "scanError": "Scan error",
+  "scanExtractedText": "Extracted Text",
+  "scanExtractedEntities": "Detected Information",
+  "scanSaveButton": "Save",
+
+  "medsTitle": "My Medications",
+  "medsAdd": "Add Medication",
+  "medsEdit": "Edit",
+  "medsDelete": "Delete",
+  "medsEmpty": "No medications",
+  "medsActiveLabel": "Active",
+  "medsInactiveLabel": "Completed",
+
+  "medFormName": "Medication Name",
+  "medFormDosage": "Dosage",
+  "medFormFrequency": "Frequency",
+  "medFormTimes": "Times",
+  "medFormStartDate": "Start Date",
+  "medFormEndDate": "End Date",
+  "medFormExpiryDate": "Expiry Date",
+  "medFormBarcode": "Barcode",
+  "medFormImage": "Photo",
+  "medFormSave": "Save",
+  "medFormCancel": "Cancel",
+
+  "freq1x": "Once a day",
+  "freq2x": "Twice a day",
+  "freq3x": "3 times a day",
+  "freq4x": "4 times a day",
+
+  "remindersTitle": "Reminders",
+  "remindersUpcoming": "Upcoming",
+  "remindersToday": "Today",
+  "remindersEmpty": "No reminders",
+  "remindersActive": "Active",
+
+  "notifActionTaken": "Taken",
+  "notifActionSnooze": "Snooze 15 min",
+  "notifActionSkip": "Skip",
+  "notifTitle": "Medication Reminder",
+  "notifBody": "Time to take your medication",
+
+  "historyTitle": "History",
+  "historyAll": "All",
+  "historyActive": "Active",
+  "historyCompleted": "Completed",
+  "historyEmpty": "No history",
+  "historyExport": "Export",
+
+  "settingsTitle": "Settings",
+  "settingsTheme": "Theme",
+  "settingsThemeLight": "Light",
+  "settingsThemeDark": "Dark",
+  "settingsThemeSystem": "System",
+  "settingsLanguage": "Language",
+  "settingsNotifications": "Notifications",
+  "settingsSecurity": "Security",
+  "settingsSecurityPin": "PIN Code",
+  "settingsSecurityBio": "Biometrics",
+  "settingsAbout": "About",
+  "settingsDeveloper": "Developer",
+  "settingsSound": "Sound Effects",
+  "settingsVibration": "Vibration",
+  "settingsSoundDescription": "Enable sound feedback",
+  "settingsVibrationDescription": "Enable haptic feedback",
+
+  "langFrench": "Français",
+  "langEnglish": "English",
+  "langArabic": "العربية",
+
+  "yes": "Yes",
+  "no": "No",
+  "ok": "OK",
+  "cancel": "Cancel",
+  "save": "Save",
+  "delete": "Delete",
+  "edit": "Edit",
+  "add": "Add",
+  "search": "Search",
+  "filter": "Filter",
+  "close": "Close",
+  "confirm": "Confirm",
+
+  "validationRequired": "This field is required",
+  "validationInvalidEmail": "Invalid email",
+  "validationInvalidDate": "Invalid date",
+  "validationInvalidTime": "Invalid time",
+
+  "errorGeneric": "An error occurred",
+  "errorNetwork": "Connection error",
+  "errorPermission": "Permission denied",
+  "errorCamera": "Camera access error",
+  "errorStorage": "Storage access error",
+  "errorNotification": "Notification error",
+
+  "successSaved": "Saved successfully",
+  "successDeleted": "Deleted successfully",
+  "successUpdated": "Updated successfully",
+
+  "expiryGood": "Valid",
+  "expiryWarning": "Expires soon",
+  "expiryExpired": "Expired",
+
+  "permissionCamera": "Camera permission required",
+  "permissionStorage": "Storage permission required",
+  "permissionNotifications": "Notification permission required",
+
+  "accountSection": "Account",
+  "appearanceSection": "Appearance",
+  "notificationsSection": "Notifications",
+  "languageSection": "Language",
+  "securitySection": "Security",
+  "aboutSection": "About",
+  "feedbackSection": "Feedback",
+
+  "logout": "Logout",
+  "logoutConfirmTitle": "Logout",
+  "logoutConfirmMessage": "Are you sure you want to logout?",
+
+  "notificationRemindersDescription": "Enable medication reminders",
+  "pinCodeDescription": "Protect app with PIN code",
+  "biometricsDescription": "Enable biometric authentication",
+
+  "version": "Version",
+  "developedWith": "Developed with ❤️",
+  "license": "License",
+  "mitLicense": "MIT License",
+
+  "warningDisclaimer": "This app is an assistant and does not replace professional medical advice.",
+
+  "user": "User",
+  "soundEnabled": "Sound enabled",
+  "soundDisabled": "Sound disabled",
+  "vibrationEnabled": "Vibration enabled",
+  "vibrationDisabled": "Vibration disabled",
+  "notificationsEnabled": "Notifications enabled",
+  "notificationsDisabled": "Notifications disabled",
+  "languageChanged": "Language changed",
+  "themeChanged": "Theme changed",
+
+  "selectLanguage": "Select Language",
+  "selectTheme": "Select Theme",
+
+  "multilingualInDevelopment": "Multilingual - In Development",
+  "pinCodeInDevelopment": "PIN Code - In Development",
+  "biometricsInDevelopment": "Biometrics - In Development",
+
+  "profile": "My Profile",
+  "homeGreetingQuestion": "How are you today?",
+  "menuTitle": "Menu",
+  "statActiveMeds": "Active Medications",
+  "statInactiveMeds": "Inactive Medications",
+  "statDosesToday": "Doses Today",
+  "statExpiryAlerts": "Expiry Alerts",
+  "expiryAlertsTitle": "Expiry Alerts",
+  "expiryAlertsNoneTitle": "Everything is in order!",
+  "expiryAlertsNoneBody": "No medications expire in the next 3 days",
+  "expiryAlertsClickToView": "Tap to view list",
+  "expiryPreview": "Preview:",
+  "expiryExpiredToday": "Expired today",
+  "expiryExpiredDaysAgo": "Expired {days} days ago",
+  "@@expiryExpiredDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "expiryExpiresTomorrow": "Expires tomorrow",
+  "expiryExpiresInDays": "Expires in {days} days",
+  "@@expiryExpiresInDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "expiryOthers": "+{count} others",
+  "@@expiryOthers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "expirySummaryExpired": "{count} expired medication",
+  "@@expirySummaryExpired": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "expirySummaryExpiring": "{count} expiring soon",
+    "@@expirySummaryExpiring": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "medsTitleInactive": "Inactive Medications",
+  "medsTitleActive": "Active Medications",
+  "medsTitleExpiring": "Expiry Alerts",
+  "searchHint": "Search for a medication...",
+  "filterAll": "Show all",
+  "filterActiveOnly": "Show active only",
+  "searchCloseTooltip": "Close search",
+  "searchOpenTooltip": "Search",
+  "loadingMeds": "Loading medications...",
+  "errorTitle": "Error",
+  "retry": "Retry",
+  "medsEmptyTitle": "No medications",
+  "medsEmptyBody": "Start by adding your first medication",
+  "medsNoInactiveTitle": "No inactive medications",
+  "medsNoInactiveBody": "All your medications are active!\nThat's good news.",
+  "medsNoActiveTitle": "No active medications",
+  "medsNoActiveBody": "All your medications are disabled.\nEnable them to start reminders.",
+  "medsNoSearchTitle": "No results",
+  "medsNoSearchBody": "No medication matches your search\n\"{query}\"",
+  "@@medsNoSearchBody": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "clearSearch": "Clear search",
+  "medsNoExpiringTitle": "No expiry alerts",
+  "medsNoExpiringBody": "All your medications are strictly valid!\nNo medication expires in the next 3 days.",
+  "back": "Back",
+  "statTotal": "Total",
+  "statLabelActive": "Active",
+  "statLabelInactive": "Inactive",
+  "statLabelAlerts": "Alerts",
+
+  "medFormTitleAdd": "Add Medication",
+  "medFormTitleEdit": "Edit Medication",
+  "medFormSaving": "Saving...",
+  "medFormFillInfo": "Fill in medication details",
+  "medFormBasicInfo": "Basic Information",
+  "medFormNameRequired": "Name is required",
+  "medFormDosageHint": "Ex: 500mg, 10ml",
+  "medFormDosageRequired": "Dosage is required",
+  "medFormActive": "Active Medication",
+  "medFormActiveDesc": "Treatment in progress",
+  "medFormInactiveDesc": "Treatment completed",
+  "medFormFreqAndTimes": "Frequency & Schedule",
+  "medFormFreqLabel": "Frequency per day",
+  "medFormFreqPerDay": "{count} times per day",
+  "@@medFormFreqPerDay": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "medFormTimesLabel": "Intake Times",
+  "medFormTimeIndex": "Intake {index}",
+  "@@medFormTimeIndex": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "medFormDatesLabel": "Dates",
+  "medFormEndDateOptional": "End Date (Optional)",
+  "medFormExpiryDateOptional": "Expiry Date (Optional)",
+  "medFormSelectDate": "Select a date",
+  "medFormAdditionalInfo": "Additional Information",
+  "medFormBarcodeOptional": "Barcode (Optional)",
+  "medFormBarcodeHint": "Scan or enter code",
+  "medFormScan": "Scan",
+  "medFormScanCancelled": "Scan cancelled",
+  "medFormSearching": "Searching for medication...",
+  "medFormConsultingDb": "Consulting database...",
+  "medFormFound": "Medication found!",
+  "medFormSaved": "Medication added successfully",
+  "medFormChangesSaved": "Changes saved",
+  "medFormManufacturer": "Manufacturer: {name}",
+  "@@medFormManufacturer": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "medFormSaveChanges": "Save Changes",
+  "medFormAddBtn": "Add Medication",
+  "medFormCancelBtn": "Cancel",
+
+  "remindersNotificationsEnabled": "Notifications enabled",
+  "remindersNotificationsDisabled": "Notifications disabled",
+  "remindersEnabledDesc": "You will receive reminders for your medications",
+  "remindersDisabledDesc": "Enable notifications to receive reminders",
+  "activate": "Enable",
+  "remindersTestTitle": "Test Notifications",
+  "remindersTestBody": "Send a test notification to check functionality",
+  "remindersTestBtn": "Send test notification",
+  "remindersMyMeds": "My Medications ({count})",
+  "@@remindersMyMeds": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "remindersHint": "Tap a time to toggle reminder",
+  "remindersNoActiveMeds": "No active medications",
+  "remindersAddMedsHint": "Add medications to set up reminders",
+  "refresh": "Refresh",
+  "remindersScheduled": "Notifications checked and scheduled",
+  "markAsTaken": "Mark as taken",
+  "markAsSkipped": "Mark as skipped",
+  "remindersNoTimesConfigured": "No intake times configured",
+  "remindersAllTaken": "All doses marked as taken",
+  "remindersAllSkipped": "All doses marked as skipped",
+  "remindersSelectTime": "Select intake time:",
+  "remindersAllCompleted": "All doses for today are completed",
+  "notificationTimeForMed": "It's time to take your medication ({dosage})",
+  "@@notificationTimeForMed": {
+    "placeholders": {
+      "dosage": {
+        "type": "String"
+      }
+    }
+  },
+
+  "historyTitle": "Treatment History",
+  "filterHistory": "Filter History",
+  "filterAll": "All",
+  "filterTaken": "Taken",
+  "filterMissed": "Missed",
+  "filterSkipped": "Skipped",
+  "historyToday": "Today",
+  "historyWeek": "This Week",
+  "historyAllTime": "All Time",
+  "statsTitle": "Statistics",
+  "historyEmptyTitle": "No history available",
+  "historyEmptyBody": "Your medication records will appear here",
+  "historyYesterday": "Yesterday",
+  "dateRangeSelected": "Selected period: {start} - {end}",
+  "@@dateRangeSelected": {
+    "placeholders": {
+      "start": { "type": "String" },
+      "end": { "type": "String" }
+    }
+  },
+  "statsDetailed": "Detailed Statistics",
+  "statsOverview": "Overview",
+  "statsTotal": "Total Doses",
+  "statsCompleted": "Completed Doses",
+  "statsPending": "Pending",
+  "statsDetails": "Dose Details",
+  "statsSuccess": "Successful Doses",
+  "statsMissed": "Missed Doses",
+  "statsSkipped": "Skipped Doses",
+  "statsLate": "Late Doses (>5min)",
+  "complianceRate": "Compliance Rate",
+  "complianceExcellent": "Excellent",
+  "complianceGood": "Good",
+  "complianceAverage": "Average",
+  "compliancePoor": "Needs Improvement",
+  "close": "Close",
+  "status": "Status",
+  "scheduledTime": "Scheduled Time",
+  "takenTime": "Taken Time",
+  "delay": "Delay",
+  "note": "Note",
+  "minutesLate": "{minutes} minutes late",
+  "@@minutesLate": {
+    "placeholders": {
+      "minutes": { "type": "int" }
+    }
+  },
+  "minutesLabel": "minutes",
+
+  "scanHeader": "Scan Prescription",
+  "scanSubtitle": "Use AI to automatically extract information",
+  "scanMethodTitle": "Choose a method",
+  "scanTakePhoto": "Take a photo",
+  "scanCameraSubtitle": "Scan with camera",
+  "scanPickImage": "Pick an image",
+  "scanGallerySubtitle": "From your gallery",
+  "scanTipsTitle": "Tips for a better scan",
+  "scanTipLight": "Good lighting",
+  "scanTipSharp": "Sharp image",
+  "scanTipFlat": "Document flat",
+  "scanTipHandwriting": "Handwriting supported",
+  "scanCaptured": "Captured",
+  "scanCapturedTitle": "Prescription captured",
+  "scanCapturedSubtitle": "Ready for analysis",
+  "scanDetectedMeds": "{count} medication(s) detected",
+  "@@scanDetectedMeds": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "scanNoText": "No text detected",
+  "scanConfirmTitle": "Confirm addition",
+  "scanConfirmBody": "You are about to add {count} medication(s):",
+  "@@scanConfirmBody": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "scanScheduleWarning": "Intake times will be generated automatically. You can modify them later.",
+  "scanNoMedsToSave": "No medication detected to save",
+  "scanNew": "New scan",
+  "scanProcessing": "Processing...",
+  "scanExtractedText": "Extracted Text",
+  "scanSaveButton": "Save",
+  "medFormCancelBtn": "Cancel",
+  "frequencyDay": "day",
+  "clearSearch": "Clear search",
+  "seeAll": "See all",
+  "seeMoreMeds": "See {count} more",
+  "@@seeMoreMeds": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "homeMedsSummary": "{total} total • {active} active",
+  "@@homeMedsSummary": {
+    "placeholders": {
+      "total": { "type": "int" },
+      "active": { "type": "int" }
+    }
+  },
+  "homeUpcomingReminders": "Upcoming Reminders",
+  "commonInMin": "In {min} min",
+  "@@commonInMin": {
+    "placeholders": {
+      "min": { "type": "int" }
+    }
+  },
+  "commonInHoursMin": "In {hours}h {min}min",
+  "@@commonInHoursMin": {
+    "placeholders": {
+      "hours": { "type": "int" },
+      "min": { "type": "int" }
+    }
+  },
+  "dosesPerDay": "{count} doses/day",
+  "@@dosesPerDay": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "commonActive": "Active",
+  "commonInactive": "Inactive",
+  "medsTitle": "My Medications",
+  "profileTitle": "My Profile",
+  "editProfile": "Edit Profile",
+  "editProfileComingSoon": "Edit Profile - Coming soon",
+  "memberSince": "Member since {date}",
+  "@@memberSince": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "statTotalMeds": "Total Medications",
+  "emailLabel": "Email",
+  "displayNameLabel": "Display Name",
+  "userIdLabel": "User ID",
+  "changePassword": "Change Password",
+  "changePasswordComingSoon": "Change Password - Coming soon",
+  "deleteAccount": "Delete Account",
+  "deleteAccountConfirmTitle": "Delete Account",
+  "deleteAccountConfirmBody": "Are you sure you want to delete your account? This action is irreversible and all your data will be lost.",
+  "deleteAccountComingSoon": "Account Deletion - Coming soon",
+  "unknown": "Unknown",
+
+
+  "untilDate": "Until {date}",
+  "@@untilDate": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "deactivate": "Deactivate",
+  "activate": "Activate",
+  "confirmDeactivateTitle": "Deactivate Medication",
+  "confirmActivateTitle": "Activate Medication",
+  "confirmDeactivateBody": "Do you want to deactivate \"{name}\"?\n\nReminders will be paused and it will no longer appear in active medications.",
+  "@@confirmDeactivateBody": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "confirmActivateBody": "Do you want to activate \"{name}\"?\n\nReminders will be reactivated and it will appear in active medications.",
+  "@@confirmActivateBody": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "medicationDeactivated": "\u2705 {name} disabled",
+  "@@medicationDeactivated": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "medicationActivated": "\u2705 {name} enabled",
+  "@@medicationActivated": {
+      "placeholders": {
+        "name": { "type": "String" }
+      }
+    },
+  "confirmDeleteTitle": "Delete Confirmation",
+  "confirmDeleteBody": "Are you sure you want to delete {name}?",
+  "@@confirmDeleteBody": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "detailsComingSoon": "Details of {name} - In development",
+  "@@detailsComingSoon": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "homeTimelineTitle": "Today's Timeline",
+  "homeTimelineEmpty": "No schedule today"
+}
+
+

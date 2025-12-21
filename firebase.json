@@ -1,0 +1,27 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "mediscan-helper",
+          "appId": "1:750200962004:android:fbd292cf07068ca852f441",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "mediscan-",
+          "configurations": {
+            "android": "1:750200962004:android:fbd292cf07068ca852f441",
+            "ios": "1:750200962004:ios:c6de542306b3b90752f441",
+            "web": "1:750200962004:web:2bd383d372d433c652f441"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
